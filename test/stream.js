@@ -1,5 +1,5 @@
 var assert = require('assert');
-var Put = require('put');
+var Put = require('../index');
 
 exports.stream = function () {
     var written = 0;
@@ -9,7 +9,7 @@ exports.stream = function () {
             written ++;
         }
     };
-    
+
     Put()
         .word16be(
             256 * 'a'.charCodeAt(0)

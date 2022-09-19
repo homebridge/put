@@ -3,6 +3,14 @@ Put
 
 Pack multibyte binary values into buffers with specific endiannesses.
 
+Fork
+============
+
+This fork is derived from the original package currently only available via npm: [put](https://www.npmjs.com/package/put).
+The [GitHub repo](https://github.com/substack/node-put) seems to be inaccessible.
+
+This fixes a potential Sensitive Data Exposure detailed [here](https://github.com/advisories/GHSA-v6gv-fg46-h89j).
+
 Installation
 ============
 

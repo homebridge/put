@@ -5,7 +5,7 @@ var buf = Put()
     .word16be(1337)
     .word8(1)
     .pad(5)
-    .put(new Buffer('pow', 'ascii'))
+    .put(Buffer.from('pow', 'ascii'))
     .word32le(9000)
     .buffer()
 ;
