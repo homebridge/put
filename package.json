@@ -1,8 +1,8 @@
 {
-    "name" : "@homebridge/put",
-    "version" : "0.0.6",
-    "description" : "Pack multibyte binary values into buffers",
-    "main" : "./index.js",
+    "name": "@homebridge/put",
+    "version": "0.0.7",
+    "description": "Pack multibyte binary values into buffers",
+    "main": "./index.js",
     "keywords": [
         "put",
         "pack",
@@ -12,11 +12,11 @@
         "type": "git",
         "url": "http://github.com/substack/node-put.git"
     },
-    "scripts" : {
-        "test" : "expresso"
+    "scripts": {
+        "test": "expresso"
     },
     "engines": {
-        "node" : ">=0.3.0"
+        "node": ">=0.3.0"
     },
     "license": "MIT/X11",
     "devDependencies": {
